@@ -1,0 +1,19 @@
+{
+  "name": "simple-project-template",
+  "description": "Simple Project Template for Angular Projects",
+  "main": "index.html",
+  "authors": [
+    "JuanMa Ruiz"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "angular"
+  ],
+  "homepage": "https://github.com/JuanMaRuiz/simple-project-template-angular",
+  "moduleType": [],
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18"
+  }
+}
