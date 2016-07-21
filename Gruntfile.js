@@ -17,6 +17,20 @@
           ignorePath:  /\.\.\//
         }
       },
+      bowercopy: {
+        options: {
+          srcPrefix: 'bower_components'
+        },
+        scripts: {
+          options: {
+            destPrefix: 'public/js/lib'
+          },
+          files: {
+            'angular.js' : 'angular/angular.js',
+            'angular-ui-router.js' : 'angular-ui-router/release/angular-ui-router.js'
+          }
+        }
+      },
       sass: {
         dist: {
           files: {
@@ -59,7 +73,7 @@
       }
     });
 
-    grunt.registerTask('default', ['wiredep', 'connect', 'sass', 'jshint','watch']);
+    grunt.registerTask('default', ['wiredep', 'bowercopy' ,'connect', 'sass', 'jshint','watch']);
 
   };
 })();

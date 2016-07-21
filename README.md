@@ -6,6 +6,7 @@ A simple template for begin shortly a project with Angular, Sass and LiveReload 
 
 This is project is a simple template for begin shortly a project with:
 
+* Bower
 * Angular
 * [SASS](http://sass-lang.com/guide)
 
@@ -16,8 +17,9 @@ This is project is a simple template for begin shortly a project with:
 
 	```sh
 	$ npm install
+  $ bower install
 	```
-	> Maybe you'll need to run npm install grunt-contrib-watch to get the last version of grunt-contrib-watch package. [More info](https://github.com/gruntjs/grunt-contrib-watch)
+	> Maybe you'll need to run npm install grunt-contrib-watch to get the last version of grunt-contrib-watch package. [More info](https://github.com/gruntjs/grunt-contrib-watch) 
 
 * Run your project with:
 
@@ -25,9 +27,13 @@ This is project is a simple template for begin shortly a project with:
 	$ grunt
 	```
 
-* Visit [localhost:9000](http://localhost:9000) to see your project
+* Welcome page should be opened automatically in your default browser at [localhost:9000](http://localhost:9000).
 
 ## What do you get?
+
+Installing dependencies with bower you'll download:
+* Angular
+* Angular ui-router
 
 Project structure:
 
