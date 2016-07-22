@@ -21,18 +21,14 @@
 </head>
 
 <body ng-app="bazingaApp">
-
     <div class="wrapper">
-
-        <section>
-            <header>
-                <h1>Hooray! It's works!</h1>
-            </header>
-            <p>Now it's your time</p>
-        </section>
-
-
-
+        <nav>
+          <ul class="nav-bar">
+            <li class="nav-bar_item"><a ui-sref="state1">Go to state #1</a></li>
+            <li class="nav-bar_item"><a ui-sref="state2">Go to state #2</a></li>
+          </ul>
+        </nav>
+        <section ui-view></section>
     </div>
     <!-- /#wrapper -->
     <!-- bower:js -->
@@ -43,7 +39,7 @@
     <!-- Global Functions -->
     <script src="js/app.js"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Oxygen:400,700" rel="stylesheet">
 </body>
-
 </html>
 

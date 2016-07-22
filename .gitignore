@@ -5,3 +5,4 @@ public/css/*.css.map
 node_modules/
 bower_components/
 test/tmp/
+public/js/lib/
