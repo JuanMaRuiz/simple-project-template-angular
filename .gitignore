@@ -2,6 +2,7 @@
 *.log
 .sass-cache/
 public/css/*.css.map
+public/js/lib/
 node_modules/
 bower_components/
 test/tmp/
