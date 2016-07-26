@@ -16,8 +16,7 @@ This is project is a simple template for begin shortly a project with:
 * Install dependencies:
 
 	```sh
-	$ npm install
-  $ bower install
+	$ npm install && bower install
 	```
 	> Maybe you'll need to run npm install grunt-contrib-watch to get the last version of grunt-contrib-watch package. [More info](https://github.com/gruntjs/grunt-contrib-watch) 
 
