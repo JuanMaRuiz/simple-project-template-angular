@@ -1,3 +1,5 @@
+![tests](https://travis-ci.org/JuanMaRuiz/simple-project-template-angular.svg?branch=master)
+![dependencies status](https://david-dm.org/JuanMaRuiz/simple-project-template-angular.svg)
 ![project version](https://img.shields.io/badge/version-0.1.1-green.svg)
 # Simple Project Template for Angular
 A simple template for begin shortly a project with Angular, Sass and LiveReload preconfigured.
