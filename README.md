@@ -69,7 +69,15 @@ Installing dependencies with bower and npm you'll download:
 
 ```
 
+### Note - How update npm dependencies?
 
+You can use [npm-check-updates](https://www.npmjs.org/package/npm-check-updates) in order to check every package you have installed in your project.
+
+```
+$ npm i -g npm-check-updates # install globally npm-check-updates
+$ npm-check-updates -u       # check your package and updated it with the lastest versions
+$ npm install                # install new ones
+```
 License
 -------
 
