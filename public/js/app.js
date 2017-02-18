@@ -10,10 +10,14 @@
       $stateProvider
         .state('home', {
           url: '/',
-          templateUrl: 'partials/state1.html'
+          controller: 'StateHomeController',
+          controllerAs: 'StateHomeCtrl',
+          templateUrl: 'partials/home.html'
         })
         .state('state1', {
           url: '/state1',
+          controller: 'StateOneController',
+          controllerAs: 'StateOneCtrl',
           templateUrl: 'partials/state1.html'
         })
         .state('state2', {

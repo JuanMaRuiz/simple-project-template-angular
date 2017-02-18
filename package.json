@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "install": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
+    "pretest": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
     "test": "protractor ./test/protractor.conf.js"
   },
   "repository": {
