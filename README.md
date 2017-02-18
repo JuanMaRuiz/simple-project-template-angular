@@ -60,7 +60,6 @@ Installing dependencies with bower and npm you'll download:
 ├── .editorconfig
 ├── .gitignore
 ├── .jshintrc
-├── .travis.yml
 ├── .bower.json
 ├── .contributors.txt
 ├── Gruntfile.js
