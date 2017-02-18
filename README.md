@@ -1,8 +1,9 @@
+![project version](https://img.shields.io/badge/version-0.1.1-green.svg)
 # Simple Project Template for Angular
 A simple template for begin shortly a project with Angular, Sass and LiveReload preconfigured.
 
 ### Version
-0.1.0
+0.1.1
 
 This is project is a simple template for begin shortly a project with:
 
