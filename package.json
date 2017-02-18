@@ -4,7 +4,8 @@
   "description": "Simple Project Template",
   "main": "index.html",
   "scripts": {
-    "test": "a"
+    "install": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
+    "test": "protractor ./test/protractor.conf.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,10 @@
     "jit-grunt": "^0.10.0",
     "jshint-stylish": "^2.1.0",
     "load-grunt-config": "^0.19.2",
-    "pixrem": "^3.0.2"
+    "pixrem": "^3.0.2",
+    "protractor": "^5.1.1"
+  },
+  "dependencies": {
+    "jasmine-reporters": "^1.1.0"
   }
 }

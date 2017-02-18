@@ -2,6 +2,8 @@
 ![dependencies status](https://david-dm.org/JuanMaRuiz/simple-project-template-angular.svg)
 ![project version](https://img.shields.io/badge/version-0.1.1-green.svg)
 # Simple Project Template for Angular
+[TOC]
+
 A simple template for begin shortly a project with Angular, Sass and LiveReload preconfigured.
 
 ### Version
@@ -33,11 +35,12 @@ This is project is a simple template for begin shortly a project with:
 
 ## What do you get?
 
-Installing dependencies with bower you'll download:
+Installing dependencies with bower and npm you'll download:
 * Angular
 * Angular ui-router
+* Protractor
 
-Project structure:
+## Project structure:
 
 ```
 .
@@ -50,6 +53,10 @@ Project structure:
 │   ├── css
 │   ├── js
 │   └── index.html
+├── test
+│   ├── protractor.conf.js
+│   └── specs
+│        └── *-spec.js
 ├── .bowerrc
 ├── .editorconfig
 ├── .gitignore

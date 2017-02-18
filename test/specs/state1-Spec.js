@@ -4,4 +4,7 @@ describe('Bazinga Demo App', function() {
 
     expect(browser.getTitle()).toEqual('Bazinga Angular App');
   });
+  it('should have and h1', function() {
+    expect(element(by.tagName('h1')).getText()).toBe('Hooray! It\'s works!');
+  });
 });
