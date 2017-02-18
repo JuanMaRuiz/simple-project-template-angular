@@ -39,15 +39,25 @@ Project structure:
 ```
 .
 ├── scss
+├── grunt           # This folder contains all the needed tasks
+│   ├── task-1.js
+│   ├── task-2.js
+│   └── ...
 ├── public
 │   ├── css
 │   ├── js
 │   └── index.html
+├── .bowerrc
+├── .editorconfig
 ├── .gitignore
 ├── .jshintrc
+├── .travis.yml
+├── .bower.json
+├── .contributors.txt
 ├── Gruntfile.js
 ├── package.json
 ├── README.md
+├── LICENSE
 
 ```
 
