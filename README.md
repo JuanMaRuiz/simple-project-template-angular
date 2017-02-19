@@ -45,9 +45,10 @@ Installing dependencies with bower and npm you'll download:
 .
 ├── scss
 ├── grunt           # This folder contains all the needed tasks
-│   ├── task-1.js
-│   ├── task-2.js
-│   └── ...
+│   └── tasks
+│       ├── task-1.js
+│       ├── task-2.js
+│       └── ...
 ├── public
 │   ├── css
 │   ├── js
