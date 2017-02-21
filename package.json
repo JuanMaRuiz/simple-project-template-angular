@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "ncu",
     "postinstall": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
-    "pretest": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
+    "webdriver": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
     "test": "protractor ./test/protractor.conf.js"
   },
   "repository": {
