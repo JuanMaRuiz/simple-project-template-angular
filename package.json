@@ -1,10 +1,11 @@
 {
-  "name": "simple-project-templae",
+  "name": "simple-project-template",
   "version": "1.0.0",
   "description": "Simple Project Template",
   "main": "index.html",
   "scripts": {
-    "install": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
+    "preinstall": "ncu",
+    "postinstall": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
     "pretest": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
     "test": "protractor ./test/protractor.conf.js"
   },
@@ -19,7 +20,7 @@
   "author": "JuanMa Ruiz",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.7.3",
+    "autoprefixer": "^6.7.4",
     "cssnano": "^3.10.0",
     "grunt": "^1.0.1",
     "grunt-bowercopy": "^1.2.4",
@@ -33,6 +34,7 @@
     "jit-grunt": "^0.10.0",
     "jshint-stylish": "^2.2.1",
     "load-grunt-config": "^0.19.2",
+    "npm-check-updates": "^2.10.3",
     "pixrem": "^3.0.2",
     "protractor": "^5.1.1"
   },
