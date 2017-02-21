@@ -7,7 +7,8 @@
     "preinstall": "ncu",
     "postinstall": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
     "webdriver": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
-    "test": "protractor ./test/protractor.conf.js"
+    "test": "protractor ./test/protractor.conf.js",
+    "unitTest": "karma start"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,9 @@
     "jit-grunt": "^0.10.0",
     "jshint-stylish": "^2.2.1",
     "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
     "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
     "load-grunt-config": "^0.19.2",
     "npm-check-updates": "^2.10.3",
     "pixrem": "^3.0.2",
