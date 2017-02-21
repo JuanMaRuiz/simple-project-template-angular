@@ -1,4 +1,6 @@
+'use strict';
 let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
+
 exports.config = {
   framework: 'jasmine2',
   seleniumAddress: 'http://localhost:4444/wd/hub',
