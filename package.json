@@ -4,7 +4,7 @@
   "description": "Simple Project Template",
   "main": "index.html",
   "scripts": {
-    "preinstall": "ncu",
+    "preinstall": "npm outdated",
     "postinstall": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update",
     "webdriver": "node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
     "test": "protractor ./test/protractor.conf.js"
