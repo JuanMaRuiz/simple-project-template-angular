@@ -1,7 +1,6 @@
 ![dependencies status](https://david-dm.org/JuanMaRuiz/simple-project-template-angular.svg)
 ![project version](https://img.shields.io/badge/version-0.1.1-green.svg)
 # Simple Project Template for Angular
-[TOC]
 
 A simple template for begin shortly a project with Angular, Sass and LiveReload preconfigured.
 
@@ -35,9 +34,10 @@ This is project is a simple template for begin shortly a project with:
 ## What do you get?
 
 Installing dependencies with bower and npm you'll download:
-* Angular
-* Angular ui-router
-* Protractor
+* [Angular](https://angularjs.org)
+* [Angular ui-router](https://ui-router.github.io)
+* [Protractor](http://www.protractortest.org/#/)
+* Unit test ([Karma](https://karma-runner.github.io))
 
 ## Project structure:
 
@@ -57,11 +57,15 @@ Installing dependencies with bower and npm you'll download:
 │   ├── protractor.conf.js
 │   └── specs
 │        └── *-spec.js
+├── unit-tests
+│   └── home.controller.spec.js
+│
 ├── .bowerrc
 ├── .editorconfig
 ├── .gitignore
 ├── .jshintrc
 ├── .bower.json
+├── karma.conf.js
 ├── .contributors.txt
 ├── Gruntfile.js
 ├── package.json
@@ -79,7 +83,7 @@ $ npm i -g npm-check-updates # install globally npm-check-updates
 $ npm-check-updates -u       # check your package and updated it with the lastest versions
 $ npm install                # install new ones
 ```
+
 License
 -------
-
-[MIT](http://opensource.org/licenses/MIT)
+[ISC](https://www.isc.org/downloads/software-support-policy/isc-license/)
