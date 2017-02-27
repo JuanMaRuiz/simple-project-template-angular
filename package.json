@@ -41,6 +41,8 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-spec-reporter": "0.0.30",
     "load-grunt-config": "^0.19.2",
     "npm-check-updates": "^2.10.3",
     "pixrem": "^3.0.2",
